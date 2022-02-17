@@ -1,0 +1,9 @@
+{
+  "base_url": "https://github.com/",
+  "settings": {
+    "headless": false
+  },
+  "selectors": {
+    "signin_button": "header a[href=\"/\"]"
+  }
+}
