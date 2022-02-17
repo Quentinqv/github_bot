@@ -1,4 +1,4 @@
-class IgBot {
+class GithubBot {
   constructor() {
     this.config = require("./config/config.json")
     this.creds = require("../creds")
@@ -71,7 +71,7 @@ class IgBot {
             return p != null ? p.innerText : "No description"
           })
 
-          console.log("Username :", username, "Description :", description)
+          console.log("Username :", username, '|', "Description :", description)
         }
       }
 
@@ -87,4 +87,4 @@ class IgBot {
   }
 }
 
-module.exports = IgBot
+module.exports = GithubBot
