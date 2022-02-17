@@ -1,9 +1,15 @@
 {
   "base_url": "https://github.com/",
+  "name": "john",
+  "nbOfPage": 5,
   "settings": {
     "headless": false
   },
   "selectors": {
-    "signin_button": "header a[href=\"/\"]"
+    "signin_button": "header a[href=\"/login\"]",
+    "login_field": "#login_field",
+    "password_field": "#password",
+    "login_submit": "form[action=\"/session\"] input[type=\"submit\"]",
+    "allusers": "#user_search_results > div > div.Box-row"
   }
 }
